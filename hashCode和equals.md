@@ -26,7 +26,7 @@
 
 所以
 
-- equals 方法被重写，必须重写 haschcode。不然不能保证两个对象相等，hashcode 也相同
+- equals 方法被重写，必须重写 hashCode。不然不能保证两个对象相等，hashCode 也相同
 
 - hashcode 重写，equals 通常也要重写，Object.equals()是判断内存地址，如果你对需求中只要某个字段相同就当成相等的话，默认的 equals 方法却一定是返回 false 的。必须保证在 hash 表中此字段唯一则不但要重写 hashCode 还要重写 equals 
 

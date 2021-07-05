@@ -52,7 +52,7 @@ public class ArrayList<E> extends AbstractList<E>
 
 ## LinkedList
 
-LinkedList 基于链表，可以存储在分散的内存中，适合做数据的插入和删除操作，不适合查询。
+LinkedList 基于双向链表，可以存储在分散的内存中，适合做数据的插入和删除操作，不适合查询。
 
 遍历 LinkedList 要使用 iterator，fori 操作通过 get(i) 每次都需要从 list 头或者尾进行遍历，性能损耗非常大。
 
